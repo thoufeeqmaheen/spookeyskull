@@ -25,3 +25,76 @@ body{
   font-size: 16px;
   color: #FFFFFF;
 }
+p
+{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 445px;
+  height: 87px;
+
+}
+.title
+{
+  width: 445px;
+  height: 222px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 109%;
+  color: #FFFFFF;
+}
+
+.menu
+{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+}
+.menucontainer
+{
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+header
+{
+  display: flex;
+  justify-content: space-around;
+}
+.maincontainer
+{
+  display: flex;
+  align-items: center;
+  margin-top: -250px;
+
+}
+
+.buttoncontainer
+{
+ display: flex;
+ justify-content: space-between
+}
+
+.arroecontainer
+{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.firstcontainer
+{
+  margin-left: 150px;
+
+}
+.see
+{
+  display: grid;
+  place-items: center;
+}
