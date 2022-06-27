@@ -1,4 +1,7 @@
-
+*{
+  font-family: 'Poppins';
+  color: #FFFFFF;
+}
 body{
  background-image:linear-gradient(136.16deg, rgba(91, 135, 75, 0.97) 12.91%, rgba(12, 55, 32, 0.87) 87.68%);
 }
@@ -6,7 +9,6 @@ body{
 {
   display: flex;
   gap: 54px;
-
 }
 .burger
 {
@@ -23,50 +25,37 @@ body{
 {
   font-weight: 700;
   font-size: 20px;
-  color: #FFFFFF;
-  font-family: 'Poppins';
   font-style: normal;
-
 }
-
 .title3
 {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
 }
 p
 {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
   width: 445px;
   height: 87px;
-
 }
 .title
 {
   width: 445px;
   height: 222px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 900;
   font-size: 68px;
   line-height: 109%;
-  color: #FFFFFF;
 }
-
 .menu
 {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: #FFFFFF;
   font-family: 'Roboto';
 }
 .menucontainer
@@ -88,15 +77,12 @@ header
   margin-top: -250px;
   gap: 70px;
   flex-wrap:wrap;
-
 }
-
 .buttoncontainer
 {
  display: flex;
  justify-content: space-between
 }
-
 .arroecontainer
 {
  display: flex;
@@ -106,7 +92,6 @@ header
 .firstcontainer
 {
   margin-right: 45px;
-
 }
 .see
 {
@@ -115,7 +100,6 @@ header
 }
 @media screen and (max-width: 1320px) 
   {
-    
     .title{
       height: 150px;
       width: 800px;
@@ -123,7 +107,6 @@ header
     .p{
       width: 800px;
     }
- 
   }
   @media screen and (max-width: 760px) 
 {
@@ -140,7 +123,6 @@ header
   width: 390px;
   position: relative;
   left: -15px;
-
 }
 .logo
 {
@@ -156,7 +138,6 @@ header
 {
   margin-top: -180px;
   justify-content: unset;
-  
 }
 .firstcontainer
 {
