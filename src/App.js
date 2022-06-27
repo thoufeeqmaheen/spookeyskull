@@ -6,25 +6,29 @@ import cbutton from './assets/cbutton.svg'
 import arrow from './assets/arrow.svg'
 import seeall from './assets/seeall.svg'
 import support from './assets/support.svg'
+import burgerbutton from './assets/burgerbutton.svg'
 
 function App() {
   return ( <>
    
     <header>
       <div className='headerlogo'>
-        <img src={logo}/>
+        <img className='logo' src={logo}/>
       </div>
             <div className='menucontainer'>
-              <div className="menu" >Graveyard</div>
-              <div className="menu" >Track Record</div>
-              <div className="menu" >Services</div>
-              <div className="menu" >Know More</div>
+                <div className='menutext'>
+                <div className="menu" >Graveyard</div>
+                <div className="menu" >Track Record</div>
+                <div className="menu" >Know More</div>
+                <div className="menu" >Services</div>
+            </div>
               <img className='support' src={support} />
+              <img className='burger' src={burgerbutton} />
             </div>
     </header>
     <div className="maincontainer">
          <div className="rightcontainer">
-           <img src={skull} />
+           <img className='skull' src={skull} />
            <First/>
          </div>
          <div className='leftmain'>
@@ -34,7 +38,7 @@ function App() {
                       <p>Hi I’m Reiza, people call me “The Labu” currently I’m trying to learn something new, building my own bike with parts only made from Malaysia.</p>
                   </div>
                       <div className="buttoncontainer">
-                        <img src={cbutton} />
+                        <img className='book' src={cbutton} />
                           <div className="arroecontainer">
                             <div className='title2'>Track Record</div>
                                <img src={arrow}/>
@@ -45,7 +49,7 @@ function App() {
 
     </div>
          <div className='see'>
-              <img src={seeall} />
+              <img className='seeall' src={seeall} />
            </div>
     </>
 

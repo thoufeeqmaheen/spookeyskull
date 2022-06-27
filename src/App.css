@@ -1,10 +1,22 @@
+
 body{
  background-image:linear-gradient(136.16deg, rgba(91, 135, 75, 0.97) 12.91%, rgba(12, 55, 32, 0.87) 87.68%);
+}
+.menutext
+{
+  display: flex;
+  gap: 54px;
+
+}
+.burger
+{
+  display: none;
 }
 .firstcontainer
 {
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
   gap: 30px;
 }
 .title2
@@ -72,7 +84,10 @@ header
 {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: -250px;
+  gap: 70px;
+  flex-wrap:wrap;
 
 }
 
@@ -90,11 +105,100 @@ header
 }
 .firstcontainer
 {
-  margin-left: 150px;
+  margin-right: 45px;
 
 }
 .see
 {
   display: grid;
   place-items: center;
+}
+@media screen and (max-width: 1320px) 
+  {
+    
+    .title{
+      height: 150px;
+      width: 800px;
+    }
+    .p{
+      width: 800px;
+    }
+ 
+  }
+  @media screen and (max-width: 760px) 
+{
+.menutext
+{
+  display: none;
+}  
+.burger
+{
+  display: block;
+}
+.skull
+{
+  width: 390px;
+  position: relative;
+  left: -15px;
+
+}
+.logo
+{
+  height: 92.45px;
+  width: 83.95px;
+}
+.support
+{
+  height: 39px;
+  width: 82px;
+}
+.maincontainer
+{
+  margin-top: -180px;
+  justify-content: unset;
+  
+}
+.firstcontainer
+{
+  margin-top: -55px;
+}
+.title
+{
+  width: unset;
+  height: unset;
+}
+.leftcontainer
+{
+  width: 377px;
+  padding: 0 10px 0 10px;
+}
+p
+{
+  width: 350px;
+  margin-bottom:30px;;
+}
+.rightcontainer
+{
+  width: unset;
+}
+.book
+{
+  width: 108.56px;
+  height: 53.32px;
+}
+.buttoncontainer
+{
+  justify-content: space-evenly;
+}
+.seeall
+{
+  width: 108.56px;
+  height: 53.32px;
+  margin: 30px 0 30px 0;
+}
+.menucontainer
+{
+  gap: 30px;
+  justify-content: flex-end;
+}
 }
